@@ -1,0 +1,28 @@
+body{
+    padding: 0;
+    margin: 0;
+ }
+ /*--------------------------------------------------------------*/
+ /*Esto se puede eliminar solo es para que se entienda el ejemplo*/
+ header{
+    background: rgb(192, 15, 15);
+    height: 60px;
+ }
+
+/*Esto se puede eliminar solo es para que se entienda el ejemplo*/
+footer{
+   background: rgb(81, 163, 173);
+   height: 60px;
+}
+/*--------------------------------------------------------------*/
+
+ .main-capsule{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+ }
+ 
+ .main-content{
+    flex: 1
+ }
+ 
